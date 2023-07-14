@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;       
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1{ 
+    font-size: 2.75em;
+    padding: 50px;
+    margin: auto;
+}
+
+h2{ 
+    font-size: 2.4em;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    color: rgb(160, 115, 202);
+}
+
+h3 {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    color: rgb(160, 115, 202);
+}
+p{ 
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 15px;
+}
+
+ul{   
+    list-style: none;
+    text-align: center;
+    
+}
+
+li {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+
+}
+
+/* Estilo de Header */
+
+header{
+    background-color: rgb(200, 200, 200);   
+}
+
+header .caja{
+    display: flex;
+    flex-direction:column;
+}
+
+header .centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+header a{
+    padding: 10px 10px;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+/* Termina estilo header */
+
+main {
+    background-color: rgb(40, 40, 40);
+}
+
+
+/* Estilo formulario */
+
+#formulario form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(40,40,40);
+    color: aliceblue;
+}
+
+#formulario h1 {
+    text-align: center;
+    background-color: rgb(40,40,40);
+    color:rgb(160, 115, 202);
+}
+
+main .formulario-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .subtitulo{
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+
+main .frase-form{
+    color:white
+}
+/* Termina estilo fomrulario */
+
+/* Imagen Heroe */
+
+#encabezado{
+    text-align: center;
+    background-color: rgb(40,40,40);
+    color: aliceblue;
+    margin: auto;   
+}
+
+#encabezado img{
+    width: 100%;    
+    height: auto;
+}
+
+/* Termina estilo imagen heroe */
+
+/* Estilo productos */
+
+#nuestros-productos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+#nuestros-productos .caja{
+    display: flex;
+    flex-direction: column;  
+}
+
+#nuestros-productos img {
+    height: 250px;
+    width: 250px;
+    image-resolution: auto;
+    border-radius: 10px;
+}
+
+#nuestros-productos .cajitas {
+    padding: 20px;    
+}
+
+#nuestros-productos .cajitas form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;          
+}
+
+/* Termina estilo productos */
+
+/* Estilo servicios */
+
+#nuestros-servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+#nuestros-servicios .caja{
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+}
+
+#nuestros-servicios img {
+    height: 250px;
+    width: 250px;
+    image-resolution: auto;
+    border-radius: 10px;
+}
+
+#nuestros-servicios .cajitas {
+    padding: 20px;    
+}
+
+#nuestros-servicios .cajitas form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Termina estilo servicios */
+
+/* Estilo información adicional */
+
+#info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+#info .caja {    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin:auto    
+}
+
+#info .cajitas {   
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#info .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#info img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Termina estilo info */
+
+/* Estilo footer */
+
+footer {
+    background-color: rgb(200, 200, 200);
+}
+
+footer li {   
+    display: flex;
+    justify-content: center;
+}
+
+/* Termina estilo footer */
+
+#frases-motivacionales {
+
+    background-color: rgb(40,40,40);
+}
+#frases-motivacionales p{
+
+   color:aliceblue; 
+}
+
+#lastlist {
+    margin-bottom: 0;
+    padding-left:0;
+}
+
+
+@media (min-width: 768px) {
+    header .caja {
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    header nav{
+        flex-direction:row;
+        padding-top: 65px;
+        padding-right: 100px;
+    }
+    header nav a {
+        justify-content: center;
+        align-items: center;
+    }
+    #nuestros-productos .caja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }               
+    #nuestros-servicios .caja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #info .cajitas {
+        
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    
+}
+
+@media (min-width: 992px) {
+
+    main .separacion{
+        justify-content: space-evenly;
+    }    
+    
+}
