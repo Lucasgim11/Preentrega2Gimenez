@@ -6,4 +6,6 @@ https://lucasgim11.github.io/Preentrega2Gimenez/
 
 https://github.com/Lucasgim11/Preentrega2Gimenez.git
 
-Saludos y buena semana.
+Se realizo correcciones de responsive y codigo. La pagina index y la de suscripcion serian las paginas para presentar.
+
+Saludos y buena semana. 
