@@ -4,3 +4,6 @@ Intro a git y github. Que locura todo esto. Impresionante la cantidad de tiempo 
 
 https://lucasgim11.github.io/Preentrega2Gimenez/
 
+https://github.com/Lucasgim11/Preentrega2Gimenez.git
+
+Saludos y buena semana.
