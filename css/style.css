@@ -73,6 +73,12 @@ header{
     background-color: rgb(200, 200, 200);   
 }
 
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
 header .caja{
     display: flex;
     flex-direction:column;
@@ -84,19 +90,12 @@ header .centrar{
     justify-content: center;
 }
 
-header img {
-    height: 150px;
-    width: 150px;
-    border-radius: 20px;
-}
-
 header nav{
     display: flex;
     flex-direction:column;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;   
 }
 
 header a{
@@ -319,8 +318,7 @@ footer li {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    #info .cajitas {
-        
+    #info .cajitas {  
         padding-top: 50px;
         padding-bottom: 50px;
     }
