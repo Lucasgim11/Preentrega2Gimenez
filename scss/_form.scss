@@ -1,0 +1,30 @@
+/* Estilo formulario */
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: $bgcolorm;
+    color: aliceblue;
+    h1 {
+        text-align: center;
+        background-color: $bgcolorm;
+        color: $titlecolor;
+    }
+}
+
+main .formulario-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .subtitulo{
+        padding-bottom: 0;
+        padding-top: 25px;
+    }
+    .frase-form{
+        color: $lbgcolor
+    }
+
+}
+

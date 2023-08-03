@@ -1,2 +1,37 @@
 // nesting - anidación
 
+/* Estilo de Header */
+
+header{
+    background-color: $bgcolorse;
+    img {
+        height: 115px;
+        width: 115px;
+        border-radius: 20px;
+    }
+    .caja{
+        display: flex;
+        flex-direction:column;
+    }
+    .centrar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;   
+    }
+    a{
+        padding: 10px 10px;
+        font-weight: bold;
+        color: $colornav;
+        &:hover{
+            color: blueviolet;
+        }
+    }
+       
+}
