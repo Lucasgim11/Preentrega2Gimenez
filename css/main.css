@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -27,14 +28,14 @@ p {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 2.75em;
   padding: 50px;
   margin: auto;
   color: rgb(160, 115, 202);
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2.25em;
   margin: auto;
   text-align: center;
   padding: 50px;
@@ -42,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 2.25em;
   margin: auto;
   text-align: center;
   padding: 25px;
@@ -70,6 +71,11 @@ button {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+.btn-custom {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
 #encabezado {
   text-align: center;
   background-color: rgb(40, 40, 40);
@@ -87,6 +93,18 @@ footer {
 footer li {
   display: flex;
   justify-content: center;
+}
+
+#frases-motivacionales {
+  background-color: rgb(40, 40, 40);
+}
+#frases-motivacionales p {
+  color: white;
+}
+
+#lastlist {
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 /* Estilo de Header */
@@ -123,6 +141,34 @@ header a:hover {
   color: blueviolet;
 }
 
+/* Estilo información adicional */
+#info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#info .caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+#info .cajitas {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#info .centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#info img {
+  height: 115px;
+  width: 115px;
+  border-radius: 10px;
+}
+
 /* Estilo formulario */
 #formulario form {
   display: flex;
@@ -132,7 +178,7 @@ header a:hover {
   background-color: rgb(40, 40, 40);
   color: aliceblue;
 }
-#formulario form h1 {
+#formulario h1 {
   text-align: center;
   background-color: rgb(40, 40, 40);
   color: rgb(160, 115, 202);
@@ -143,10 +189,113 @@ main .formulario-grid {
   justify-content: center;
   align-items: center;
 }
-main .formulario-grid .subtitulo {
+main .subtitulo {
   padding-bottom: 0;
   padding-top: 25px;
 }
-main .formulario-grid .frase-form {
+main .frase-form {
   color: white;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* Estilo productos */
+#nuestros-productos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#nuestros-productos .caja {
+  display: flex;
+  flex-direction: column;
+}
+#nuestros-productos img {
+  height: 250px;
+  width: 250px;
+  image-resolution: auto;
+  border-radius: 10px;
+}
+#nuestros-productos .cajitas {
+  padding: 20px;
+}
+#nuestros-productos .cajitas form {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Estilo servicios */
+#nuestros-servicios {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#nuestros-servicios .caja {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#nuestros-servicios img {
+  height: 250px;
+  width: 250px;
+  image-resolution: auto;
+  border-radius: 10px;
+}
+#nuestros-servicios .cajitas {
+  padding: 20px;
+}
+#nuestros-servicios .cajitas form {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  header .caja {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  header nav {
+    flex-direction: row;
+    padding-top: 65px;
+    padding-right: 100px;
+  }
+  header nav a {
+    justify-content: center;
+    align-items: center;
+  }
+  #encabezado img {
+    max-width: 992px;
+    height: 500px;
+    margin: auto;
+  }
+  #nuestros-productos .caja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #nuestros-servicios .caja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #info img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  #info .cajitas {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 992px) {
+  main .separacion {
+    justify-content: space-evenly;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

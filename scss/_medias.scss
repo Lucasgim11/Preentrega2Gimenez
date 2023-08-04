@@ -1,0 +1,60 @@
+// Responsive nesting
+
+@media (min-width: 768px) {
+    header {
+            .caja {
+            flex-direction:row;
+            justify-content: space-around;
+            }
+            img {
+                height: 150px;
+                width: 150px;
+                border-radius: 20px;
+            }
+            nav{
+                flex-direction:row;
+                padding-top: 65px;
+                padding-right: 100px;
+                a {
+                    justify-content: center;
+                    align-items: center;
+                  }
+                }
+            }
+
+    #encabezado img{
+        max-width: 992px;    
+        height: 500px;
+        margin: auto;
+    }
+    #nuestros-productos .caja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }               
+    #nuestros-servicios .caja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #info {
+        img {
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+        }
+        .cajitas {  
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }   
+} 
+
+@media (min-width: 992px) {
+
+    main .separacion{
+        justify-content: space-evenly;
+    }
+
+}

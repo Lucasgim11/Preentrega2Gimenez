@@ -1,0 +1,52 @@
+/* Estilo productos */
+
+#nuestros-productos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .caja{
+        display: flex;
+        flex-direction: column;  
+    }
+    img {
+        height: 250px;
+        width: 250px;
+        image-resolution: auto;
+        border-radius: 10px;
+    }
+    .cajitas {
+        padding: 20px;
+        form {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;          
+        }    
+    }
+}
+
+/* Estilo servicios */
+
+#nuestros-servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .caja{
+        display: flex;
+        flex-direction: column;
+        margin: auto;   
+    } 
+    img {
+        height: 250px;
+        width: 250px;
+        image-resolution: auto;
+        border-radius: 10px;
+    }
+    .cajitas {
+        padding: 20px; 
+        form {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+        }   
+    }   
+}

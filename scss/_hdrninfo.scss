@@ -32,6 +32,34 @@ header{
         &:hover{
             color: blueviolet;
         }
+    }       
+}
+
+/* Estilo información adicional */
+
+#info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    .caja {    
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin:auto;    
+    } 
+    .cajitas {   
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
     }
-       
+    .centrar {
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    img {
+        height: 115px;
+        width: 115px;
+        border-radius: 10px;
+    }    
 }

@@ -69,7 +69,11 @@ button{
     background-color: $btnbgcolor;
     color: $btncolor;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
 
+.btn-custom {
+    background-color: $btnbgcolor;
+    color: $btncolor
 }
 
 // Imagen Heroe
@@ -95,4 +99,14 @@ footer {
     }
 }
 
+#frases-motivacionales {
+    background-color: $bgcolorm;
+    p{
+        color: $lbgcolor; 
+    }
+}
 
+#lastlist {
+    margin-bottom: 0;
+    padding-left:0;
+}
