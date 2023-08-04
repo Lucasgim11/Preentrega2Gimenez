@@ -1,4 +1,4 @@
-# Preentrega2Gimenez
+# Preentrega3Gimenez
 
 Actualizacion 3er pre entrega.
 
@@ -6,8 +6,10 @@ https://lucasgim11.github.io/Preentrega2Gimenez/
 
 https://github.com/Lucasgim11/Preentrega2Gimenez.git
 
-Se realizo correcciones de proyecto completas respecto a funcionalidad de la pagina. Se prepara poryecto para empezar a hacer traspaso de sass. Al tener poco tiempo por que me voy altrabajo y no dejar el codigo a medias, como no se si va a quedar desarmado el proyecto presneto avances. El Domingo actualizo sass completo.
+Se realizo correcciones de proyecto completas respecto a funcionalidad de la pagina. Se realizo traspaso de css a scss y se acomoda el estilo de la pagina. Se modifican imagenes, rutas, detalles de formulario. Se agrego la página 404 a todos los links y se reviso funcionalidad de la misma. 
 
-No se si tenia tiempo hasta hoy a las 20, no entendi la plataforma. Por favor avisenme hasta cuando tenia tiempo. Te mando un correo al personal. 
+Quedo a disposición de correciones para poder subirlo a un servidor y hacer la entrega del proyecto. 
 
-Gracias. Buen fin de semana. 
+Gracias. 
+
+Saludos. 
