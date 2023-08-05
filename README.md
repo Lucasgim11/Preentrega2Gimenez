@@ -1,14 +1,24 @@
-# Preentrega3Gimenez
+# PF+GiménezLucas
 
-Actualizacion 3er pre entrega.
+Enctrega proyecto final.
 
 https://lucasgim11.github.io/Preentrega2Gimenez/
 
 https://github.com/Lucasgim11/Preentrega2Gimenez.git
 
-Se realizo correcciones de proyecto completas respecto a funcionalidad de la pagina. Se realizo traspaso de css a scss y se acomoda el estilo de la pagina. Se modifican imagenes, rutas, detalles de formulario. Se agrego la página 404 a todos los links y se reviso funcionalidad de la misma. 
+https://darmhandcolish.netlify.app/
 
-Quedo a disposición de correciones para poder subirlo a un servidor y hacer la entrega del proyecto. 
+Buenas a todos:
+
+               La idea de esta página es la de un e-comerce. Mi pareja tiene un emprendimiento y vende sus productos. Mi idea es que una persona mayor que pueda manejar un telefono celular, pueda comprarle sus productos.
+
+                  Se plantea una idea minimalista en el cual se vean las imagenes mas grandes.
+                  El proyecto se penso de Mobile a Deskpot.
+
+               Disculpen la precaria presentación. Va a quedar mejorada para la reentrega.
+                  
+
+Quedo a disposición.
 
 Gracias. 
 
